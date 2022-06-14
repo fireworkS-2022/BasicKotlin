@@ -23,6 +23,10 @@ fun main() {
     // 型推論
     var e = 7
     println("変数と定数 : a = $a,  b = $b,  c = $c,  d = $d,  e = $e")
+
+    // Null関連とクラス呼び出し
+    var study1 = Study1()
+    study1.nullOrNonNull()
 }
 
 // 2:Functions(引数戻り値あり)
